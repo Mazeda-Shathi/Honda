@@ -16,14 +16,11 @@ header{
 height: 44px;
 padding: 10px;
 }
-/* .about-honda{
-    height: 72px;
-} */
-/* Features of bike */
 .col img{
     width: 288px;
 height: 243px;
 }
+/* featured-bike */
 .features h1{
     font-size: 48px;
     font-weight: 600;
@@ -43,7 +40,11 @@ height: 243px;
 }
    /* launch */
    .launch-bike{
-       position: relative;
+    overflow:hidden;
+   }
+   .launch-bike img:hover{
+       transform:rotate(360deg);
+       transition:transform 4s;
    }
 .launch{
     background-color:rgba(0, 0, 0, 0.24);
