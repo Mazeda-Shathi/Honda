@@ -1,0 +1,47 @@
+/* font link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,600&display=swap');
+/* header */
+body{
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    background-color:#264653;
+    width: 100%;
+}
+.purchase-btn{
+    background-color: #E76F51;
+    width: 168px;
+height: 44px;
+padding: 10px;
+}
+.about-honda{
+    height: 72px;
+}
+/* Features of bike */
+.col img{
+    width: 288px;
+height: 243px;
+}
+.features h1{
+    font-size: 48px;
+    font-weight: 600;
+}
+.greyscale-bike{
+    filter: grayscale(100%);
+}
+/* happy client */
+.client{
+    color:#E76F51;
+}
+
+/*---------------------------------------------------
+                   media query
+ ------------------------- ------------------------*/
+/* @media  only screen  (max-width:688px) {
+    
+    .header-image img{
+      display:hidden;
+    }
+} */
