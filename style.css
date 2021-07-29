@@ -35,6 +35,9 @@ height: 243px;
 .client{
     color:#E76F51;
 }
+.image-client{
+   border-radius: 50%;
+}
 
 /*---------------------------------------------------
                    media query
